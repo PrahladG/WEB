@@ -1,0 +1,103 @@
+head
+{
+font-weight: lighter;
+font-style: italic;
+font-size: 50px;
+}
+    .topnav {
+        background-color:lightseagreen;
+        overflow: hidden;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color:burlywood;
+        color: white;
+      }
+body
+{
+    background-image: url("images/backg.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur( 0px);
+}
+.info{
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 250px;
+    font-display: fallback;
+    position: center;
+}
+
+/* ourteam-details */
+.hruthikdiv{
+position: absolute;
+left: 100px;
+
+
+}
+.maheshdiv{
+    position: relative;
+    left:550px;
+}
+.rithikdiv{
+    position: relative;
+    right: 300px;
+
+  
+}
+.prahladdiv{
+    position: absolute;
+    left: 255px;
+    top: 390px;
+   }
+.anuragdiv{
+  position: absolute;
+  left:450px;
+  top: 0px;
+}
+
+   /* images-border-radius */
+ .hruthik{
+    border-radius:100% ;
+    height: 300px;
+    width: 200px;
+}
+.rithik{
+ border-radius:100% ;
+ height: 300px;
+ width:210px ;
+}
+.mahesh{
+    border-radius:100% ;
+    height: 300px;
+    width: 200px;
+}
+.anurag{
+    border-radius:100% ;
+    width: 210px;
+    height: 300px;
+}
+.prahlad{
+    border-radius:100% ;
+    height: 300px;
+    width: 210px;
+}
